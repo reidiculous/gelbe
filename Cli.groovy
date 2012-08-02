@@ -15,7 +15,7 @@ Supported commands:
 		list availabe EB solution stacks
 	create-app-version [app name] \"[version label]\" [war file path]
 		upload new WAR version of app, creating app if necessary
-	launch-env [name] [env-name] \"[stack]\" \"[version label (optional)]\"
+	launch-env [app name] [env name] \"[stack]\" \"[version label (optional)]\"
 		launch app version on a stack, giving an evironment name
 		by not giving a version, the most recent will be used
 """
