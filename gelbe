@@ -1,3 +1,5 @@
 #!/usr/bin/bash
 
-groovy -cp . Cli "$@"
+DIR=`dirname $(readlink -f $0)`
+
+groovy -cp $DIR $DIR/Cli "$@"
