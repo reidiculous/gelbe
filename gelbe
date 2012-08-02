@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+groovy -cp . Cli "$@"
